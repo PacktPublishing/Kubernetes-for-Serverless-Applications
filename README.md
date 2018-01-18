@@ -24,35 +24,29 @@ metadata:
       app: nginx
 ```
 
-* Operating Systems:
-** macOS High Sierra
-** Ubuntu 17.04
-** Windows 10 ProfessionalPreface
-* Software:
-We will be installing several command-line tools throughout this book; each of the tools
-will have installation instructions and details of its requirements in the chapters. Note that
-while instructions for Windows systems are provided, a lot of the tools we will be using
-were originally designed to run primarily on Linux/Unix based systems such as Ubuntu
-17.04 and macOS High Sierra, and the book will favor these systems. While every effort has
-been made at the time of writing to verify that the tools work on Windows-based systems,
-as some of the tools are experimental builds, we cannot guarantee that they will continue to
-work on updated systems, because of this, I would recommend using either a Linux- or
-Unix-based system.
-* Hardware:
-** Windows 10 Professional and Ubuntu 17.04 system requirements:
-*** Systems using processors (CPUs) launched in 2011 or later with a 1.3 GHz or faster core speed, except Intel Atom processors or AMD processors based on the Llano and Bobcat micro-architectures. 4 GB RAM minimum with 8 GB RAM or more recommended
-** Apple Mac system requirements:
-*** iMac: Late 2009 or newer
-*** MacBook/MacBook (Retina): Late 2009 or newer
-*** MacBook Pro: Mid-2010 or newer
-*** MacBook Air: Late 2010 or newer
-*** Mac mini: Mid-2010 or newer
-*** Mac Pro: Mid-2010 or newer
-** Access to at least one of the following public cloud services:
-*** AWS: https:/​/​aws.​amazon.​com/​
-*** Google Cloud: https:/​/​cloud.​google.​com/​
-*** Microsoft Azure: https:/​/​azure.​microsoft.​com/​
-*** DigitalOcean: https:/​/​www.​digitalocean.​com/
+Operating Systems:
+  * macOS High Sierra
+  * Ubuntu 17.04
+  * Windows 10 ProfessionalPreface
+Software:
+We will be installing several command-line tools throughout this book; each of the tools will have installation instructions and details of its requirements in the chapters. Note that while instructions for Windows systems are provided, a lot of the tools we will be using
+were originally designed to run primarily on Linux/Unix based systems such as Ubuntu 17.04 and macOS High Sierra, and the book will favor these systems. While every effort has been made at the time of writing to verify that the tools work on Windows-based systems,
+as some of the tools are experimental builds, we cannot guarantee that they will continue to work on updated systems, because of this, I would recommend using either a Linux- or Unix-based system.
+Hardware:
+* Windows 10 Professional and Ubuntu 17.04 system requirements:
+  * Systems using processors (CPUs) launched in 2011 or later with a 1.3 GHz or faster core speed, except Intel Atom processors or AMD processors based on the Llano and Bobcat micro-architectures. 4 GB RAM minimum with 8 GB RAM or more recommended
+* Apple Mac system requirements:
+  * iMac: Late 2009 or newer
+  * MacBook/MacBook (Retina): Late 2009 or newer
+  * MacBook Pro: Mid-2010 or newer
+  * MacBook Air: Late 2010 or newer
+  * Mac mini: Mid-2010 or newer
+  * Mac Pro: Mid-2010 or newer
+* Access to at least one of the following public cloud services:
+  * [AWS](https://aws.amazon.com/)
+  * [Google Cloud](https://cloud.google.com/)
+  * [Microsoft Azure](https://azure.microsoft.com/)
+  * [DigitalOcean](https://www.digitalocean.com/)
 
 ## Related Products
 * [Getting Started with Kubernetes](https://www.packtpub.com/virtualization-and-cloud/getting-started-kubernetes?utm_source=github&utm_medium=repository&utm_campaign=9781784394035)
