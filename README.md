@@ -19,7 +19,7 @@ metadata:
 
     name: cli-hello-world
   
-  labels:
+    labels:
   
       app: nginx
 ```
