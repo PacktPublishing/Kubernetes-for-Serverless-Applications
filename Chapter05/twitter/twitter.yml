@@ -1,0 +1,24 @@
+---
+apiVersion: "v1"
+kind: "ConfigMap"
+metadata:
+  name: "flow-twitter"
+  labels:
+    funktion.fabric8.io/kind: "Flow"
+    connector: "twitter"
+data:
+  application.properties: |
+    # spring application properties file
+    # NOTE these secrets are purely for demos
+    # please replace with your access token secrets for your apps!!!
+    camel.component.twitter.access-token=2213091858-REJvMEEUeSoGA0WPKp7cv8BBTyTcDeRkHBr6Wpj
+    camel.component.twitter.access-token-secret=WopER9tbSJtUtASEz62lI8HTCvhlYBvDHcuCIof5YzyGg
+    camel.component.twitter.consumer-key=aKiWFB6Q7Ck5byHTWu3zHktDF
+    camel.component.twitter.consumer-secret=uFPEszch9UuIlHt6nCxar8x1DSYqhWw8VELqp3pMPB571DwnDg
+  funktion.yml: |
+    ---
+    flows:
+      - logResult: true
+        steps:
+        - kind: endpoint
+          uri: twitter://search?type=direct&keywords=Kubernetes
