@@ -5,7 +5,7 @@ Kubernetes is often documented and approached from the perspective of someone ju
 
 You will begin by setting up Kubernetes for development and packaging your code to run in Kubernetes. It will walk you through the set up and installation process before working with Kubernetes in the development environment. We will then take a deep dive into concepts like automating your build process, autonomic computing, debugging, integration testing and so on. This book will cover all the necessary concepts required for any developer to work with Kubernetes. Towards the end of this book, we will be covering few security best practices which will secure the developer environment. By the end of this book, you will be in a position to use Kubernetes in the development ecosystem.
 ## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter03.
+All of the code is organized into folders. For example, Chapter03.
 
 
 
