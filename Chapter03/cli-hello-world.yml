@@ -11,7 +11,7 @@ spec:
     port: 8000
     targetPort: 80
 ---
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cli-hello-world
